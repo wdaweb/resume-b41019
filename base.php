@@ -54,7 +54,7 @@ class DB{
 
     function __construct($table){
         $this->table=$table;
-        $this->pdo=new PDO($this->dsn,'root','');
+        $this->pdo=new PDO($this->dsn,'s1090406','s1090406');
 
     }
 
